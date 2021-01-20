@@ -1,0 +1,101 @@
+\documentclass[10pt,a4paper,ragged2e]{resume}
+
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+\setmainfont{Carlito}
+\else
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{biblatex}
+\fi
+
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{main.bib}
+
+\begin{document}
+    \name{Rusu Dinu Ștefan}
+    \tagline{Software Developer}
+    \personalinfo{%
+        \email{dinustefan89.ds@gmail.com}
+        \location{Bucharest, Romania}
+
+        \linkedin{linkedin.com/in/dinu-stefan-rusu/}
+        \github{github.com/dddecar}
+    }
+
+    \begin{fullwidth}
+        \makecvheader
+    \end{fullwidth}
+
+    \AtBeginEnvironment{itemize}{\small}
+
+    \cvsection[page1sidebar]{Education}
+    \cvevent{Bachelor in Computer Engineering}{University Politechnica of Bucharest }{Oct 2020 -- Jun 2024}{}
+    \cvevent{Bachelor degree}{"Tudor Vianu" National College of Computer Science }{Sept 2016 -- May 2020}{}
+
+    \cvsection{Experience}
+    \cvevent{Contracted Android and WEB Software Developer}{Cosmin Savu}{Dec 2019 -- Aug 2020}{Bucharest, Romania}
+    \begin{itemize}
+        \item Developed Cosmin Savu's website using React and Firebase.
+        \smallskip
+        \item Created the Android app that mimics the website using native code (Java).
+        \item Optimized for high loads. Gained a 10\% load-time performance increase after making use of React lazy-loading and caching techniques.
+        \smallskip
+    \end{itemize}
+
+    \divider
+
+    \cvevent{Android Software Developer}{Rubrika}{Aug 2019 -- Dec 2019}{Bucharest, Romania}
+    \begin{itemize}
+        \item Developed the Rubrika Android app from scratch, using native code (Java) and Android Studio. The Android app is up to 30\% faster than the website.
+        \smallskip
+    \end{itemize}
+
+%\divider
+
+    \cvsection{Achievements}
+    \smallskip
+    \begin{itemize}
+        \item Placed 2nd place at "Infoeducatie Nationala" 2020
+        \item Placed 3rd place at "Infoeducatie Online" 2020
+        \item Placed in top 25\% at "Infoeducatie Nationala" 2019
+        \item Participated at \textquotedblleft Performanțe Vianiste\textquotedblright, XI th. Edition, 2019
+        \item Participated at \textquotedblleft DaVinci Contest, Reinvent the Future\textquotedblright, IV th edition, 2018
+        \item Participated at \textquotedblleft Performanțe Vianiste\textquotedblright, X th. Edition, 2018
+    \end{itemize}
+
+    \cvsection{SKILLS}
+
+    \cvskill{Java, Android, Javascript, Dart, Flutter}{4}
+%\divider
+    \smallskip
+    \cvskill{React, Firebase, CSS, HTML, XML, Node.js}{3}
+    \smallskip
+    \cvskill{C++, C\#, AWS}{2}
+    \smallskip
+    \cvskill{Illustrator, Lightroom, Premiere Pro}{3}
+% \divider
+%\cvskill{German}{3}
+
+
+% \divider
+
+
+
+    \clearpage
+
+    \nocite{*}
+
+
+\end{document}
