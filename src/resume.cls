@@ -187,9 +187,15 @@
 
 \newcommand{\cvskill}[2]{%
 \textcolor{emphasis}{\textbf{#1}}\hfill
-\foreach \x in {1,...,5}{%
+\foreach \x in {1,...,5}{% this made the small progress circles
 \space{\ifnumgreater{\x}{#2}{\color{body!30}}{\color{accent}}\ratingmarker}}\par%
 }
+
+\newcommand{\cvskillnoprogress}[2]{%
+\textcolor{emphasis}{\textbf{#1}}\hfill
+\newline
+}
+
 
 \newcommand{\wheelchart}[4][0]{%
 \begingroup\centering
