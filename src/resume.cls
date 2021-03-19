@@ -93,7 +93,7 @@
 
 \newenvironment{fullwidth}{%
     \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
-{\end{adjustwidth}}
+    {\end{adjustwidth}}
 
 \newcommand{\emailsymbol}{\faAt}
 \newcommand{\phonesymbol}{\faPhone}
@@ -123,15 +123,15 @@
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
 \newcommand{\makecvheader}{%
-\begingroup
-\ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
-\raggedright\color{emphasis}%
-{\Huge\bfseries\MakeUppercase{\@name}\par}
-\medskip
-{\large\bfseries\color{accent}\@tagline\par}
-\medskip
-{\footnotesize\bfseries\@personalinfo\par}
-\ifdef{\@photodiameter}{%
+    \begingroup
+    \ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
+    \raggedright\color{emphasis}%
+    {\Huge\bfseries\MakeUppercase{\@name}\par}
+    \medskip
+    {\large\bfseries\color{accent}\@tagline\par}
+    \medskip
+    {\footnotesize\bfseries\@personalinfo\par}
+    \ifdef{\@photodiameter}{%
 \end{minipage}\hfill%
 \begin{minipage}{\@photodiameter}
 \if@normalphoto
@@ -146,6 +146,13 @@
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
 
 \newcommand{\cvsection}[2][]{%
+\bigskip%
+\ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
+{\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
+{\color{heading}\rule{\linewidth}{2pt}\par}\medskip
+}
+
+\newcommand{\cvsectionfullwidth}[2][]{%
 \bigskip%
 \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
 {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
