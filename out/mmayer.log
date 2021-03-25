@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  25 MAR 2021 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  25 MAR 2021 12:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1451,13 +1451,8 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.44832pt too wide) in paragraph at lines 100--101
-[]\T1/lato-TLF/m/n/9 Set up all the good stuff like: RHEL8 (Red Hat En-ter-pris
-e Linux 8), NG-INX (re-verse proxy, cache, SSL, HTTP2), Prometheus, 
- []
-
-./mmayer.tex:109: Undefined control sequence.
-l.109             \itme
+./mmayer.tex:114: Undefined control sequence.
+l.114             \itme
                         The websites provides an archive with all the subjec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1466,7 +1461,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (1.11395pt too wide) in paragraph at lines 133--135
+Overfull \hbox (1.11395pt too wide) in paragraph at lines 138--140
 []\T1/lato-TLF/m/n/9 Set up a high per-for-mance Ku-ber-netes Clus-ter us-ing t
 hree Rasp-berry Pi4s, to host auto-scaling con-tain-ers for the Drivers 
  []
@@ -1499,7 +1494,7 @@ c/dvips/fontawesome/fontawesomeone.enc}<c:/texlive/2020/texmf-dist/fonts/type1/
 public/fontawesome/FontAwesome.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typo
 land/lato/Lato-Bold.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/L
 ato-Regular.pfb>
-Output written on C:/LatexDocuments/resume/out/mmayer.pdf (2 pages, 87003 bytes
+Output written on C:/LatexDocuments/resume/out/mmayer.pdf (2 pages, 87154 bytes
 ).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
