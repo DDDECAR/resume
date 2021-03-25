@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  19 MAR 2021 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  25 MAR 2021 12:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1437,21 +1437,41 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 7.
 )
-Overfull \hbox (17.38234pt too wide) in paragraph at lines 56--58
+Overfull \hbox (17.38234pt too wide) in paragraph at lines 55--57
 []\T1/lato-TLF/m/n/9 Optimized for high loads. 10% faster com-pared to other ne
 ws/blog 
  []
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 74.
+(Font)              <6> on input line 73.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 74.
+(Font)              <5> on input line 73.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 74.
+(Font)              scaled to size 5.0pt on input line 73.
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(C:/LatexDocuments/resume/out/mmayer.aux)
+Overfull \hbox (6.44832pt too wide) in paragraph at lines 100--101
+[]\T1/lato-TLF/m/n/9 Set up all the good stuff like: RHEL8 (Red Hat En-ter-pris
+e Linux 8), NG-INX (re-verse proxy, cache, SSL, HTTP2), Prometheus, 
+ []
+
+./mmayer.tex:109: Undefined control sequence.
+l.109             \itme
+                        The websites provides an archive with all the subjec...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.11395pt too wide) in paragraph at lines 133--135
+[]\T1/lato-TLF/m/n/9 Set up a high per-for-mance Ku-ber-netes Clus-ter us-ing t
+hree Rasp-berry Pi4s, to host auto-scaling con-tain-ers for the Drivers 
+ []
+
+[2] (C:/LatexDocuments/resume/out/mmayer.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1465,13 +1485,13 @@ Package logreq Info: Writing requests to 'mmayer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26018 strings out of 479304
- 532161 string characters out of 5871219
- 1268811 words of memory out of 5000000
- 42780 multiletter control sequences out of 15000+600000
+ 26016 strings out of 479304
+ 532124 string characters out of 5871219
+ 1268721 words of memory out of 5000000
+ 42778 multiletter control sequences out of 15000+600000
  676855 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,8n,130p,1422b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,8n,130p,1131b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{c:/texlive/202
 0/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{c:/texlive/2020/texmf-dist/font
 s/enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2020/texmf-dist/fonts/en
@@ -1479,11 +1499,11 @@ c/dvips/fontawesome/fontawesomeone.enc}<c:/texlive/2020/texmf-dist/fonts/type1/
 public/fontawesome/FontAwesome.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typo
 land/lato/Lato-Bold.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/L
 ato-Regular.pfb>
-Output written on C:/LatexDocuments/resume/out/mmayer.pdf (1 page, 80556 bytes)
-.
+Output written on C:/LatexDocuments/resume/out/mmayer.pdf (2 pages, 86998 bytes
+).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 34 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

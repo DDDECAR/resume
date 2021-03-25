@@ -152,13 +152,6 @@
 {\color{heading}\rule{\linewidth}{2pt}\par}\medskip
 }
 
-\newcommand{\cvsectionfullwidth}[2][]{%
-\bigskip%
-\ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
-{\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
-{\color{heading}\rule{\linewidth}{2pt}\par}\medskip
-}
-
 \newcommand{\cvsubsection}[1]{%
 \smallskip%
 {\color{emphasis}\large\bfseries{#1}\par}\medskip
