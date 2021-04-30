@@ -1,1 +1,1 @@
-This is the resume of Rusu Dinu-Stefan, written in Tex.
+[embed]https://github.com/rusudinu/resume/raw/main/out/mmayer.pdf[/embed]
