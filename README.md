@@ -1,1 +1,1 @@
-[embed]https://github.com/rusudinu/resume/raw/main/out/mmayer.pdf[/embed]
+https://github.com/rusudinu/resume/blob/main/out/mmayer.pdf
