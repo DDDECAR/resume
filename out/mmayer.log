@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  27 MAY 2021 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  10 JUN 2021 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1398,26 +1398,26 @@ Package biblatex Info: Reference segment=0 on input line 26.
 \c@mv@tabular=\count421
 \c@mv@boldtabular=\count422
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 38.
+(Font)              scaled to size 24.88pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 38.
+(Font)              scaled to size 24.88pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
+(Font)              scaled to size 17.28pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 38.
+(Font)              scaled to size 12.0pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 38.
+(Font)              scaled to size 12.0pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 38.
+(Font)              scaled to size 8.0pt on input line 39.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 38.
+(Font)              scaled to size 8.0pt on input line 39.
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 38.
+ut line 39.
 (c:/texlive/2020/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 38.
+ut line 39.
 
 (c:/texlive/2020/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
@@ -1437,19 +1437,19 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 7.
 )
-Overfull \hbox (17.38234pt too wide) in paragraph at lines 55--58
+Overfull \hbox (17.38234pt too wide) in paragraph at lines 56--59
 []\T1/lato-TLF/m/n/9 Optimized for high loads. 10% faster com-pared to other ne
 ws/blog 
  []
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 76.
+(Font)              <6> on input line 77.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 76.
+(Font)              <5> on input line 77.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 76.
+(Font)              scaled to size 5.0pt on input line 77.
 
-Overfull \hbox (7.1298pt too wide) in paragraph at lines 91--91
+Overfull \hbox (7.1298pt too wide) in paragraph at lines 92--92
 \T1/lato-TLF/b/n/10 Scrum, Hy-brid Cloud, NG-INX, Grafana, Kibana, Prometheus[]
   
  []
@@ -1457,8 +1457,8 @@ Overfull \hbox (7.1298pt too wide) in paragraph at lines 91--91
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-./mmayer.tex:145: Undefined control sequence.
-l.145             \itme
+./mmayer.tex:146: Undefined control sequence.
+l.146             \itme
                         The websites provides an archive with all the subjec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1467,7 +1467,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2]
-Overfull \hbox (1.11395pt too wide) in paragraph at lines 186--187
+Overfull \hbox (1.11395pt too wide) in paragraph at lines 187--188
 []\T1/lato-TLF/m/n/9 Set up a high per-for-mance Ku-ber-netes Clus-ter us-ing t
 hree Rasp-berry Pi4s, to host auto-scaling con-tain-ers for the Drivers 
  []
@@ -1500,7 +1500,7 @@ c/dvips/fontawesome/fontawesomeone.enc}<c:/texlive/2020/texmf-dist/fonts/type1/
 public/fontawesome/FontAwesome.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typo
 land/lato/Lato-Bold.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/L
 ato-Regular.pfb>
-Output written on C:/LatexDocuments/resume/out/mmayer.pdf (3 pages, 91266 bytes
+Output written on C:/LatexDocuments/resume/out/mmayer.pdf (3 pages, 97862 bytes
 ).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
